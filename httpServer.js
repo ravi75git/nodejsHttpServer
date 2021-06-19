@@ -21,6 +21,11 @@ const server = http.createServer((req,res) =>{
   }
 
 
+  if (req.url === '/api/grocery/diary'){
+    res.write(JSON.stringify(['Milk','Butter','Cheese']));
+    res.end();  
+  }
+
 });
 
 // App
