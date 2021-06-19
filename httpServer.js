@@ -15,6 +15,12 @@ const server = http.createServer((req,res) =>{
     res.end();  
   }
 
+  if (req.url === '/api/stores'){
+    res.write(JSON.stringify(['Mobile','Wireless Mouse','Headset']));
+    res.end();  
+  }
+
+
 });
 
 // App
