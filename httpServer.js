@@ -2,7 +2,7 @@ const http = require('http');
 
 
 // Constants
-const PORT = 9000;
+const PORT = 8088;
 const server = http.createServer((req,res) =>{
   if (req.url=== '/')
   {
@@ -30,4 +30,4 @@ const server = http.createServer((req,res) =>{
 
 // App
 server.listen(PORT)
-console.log('Http server listening on port 9000')
+console.log('Http server listening on port 8088')
