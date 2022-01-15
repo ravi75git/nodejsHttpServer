@@ -4,5 +4,5 @@ WORKDIR /home/ravikumarsankaran/source/nodejs/nodejsHttpServer$
 
 COPY . .
 
-EXPOSE 9000
+EXPOSE 8088
 CMD [ "node", "httpServer.js" ]
