@@ -1,6 +1,6 @@
 FROM node:12
 
-WORKDIR /home/ravikumarsankaran/source/nodejs/nodejsHttpServer$
+WORKDIR /home/ravi/source/nodejsHttpServer$
 
 COPY . .
 
