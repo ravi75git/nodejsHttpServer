@@ -6,7 +6,7 @@ const PORT = 8088;
 const server = http.createServer((req,res) =>{
   if (req.url=== '/')
   {
-    res.write('HELLO world');
+    res.write('Hello world - NodeJS starting web page');
     res.end();
   }
 
